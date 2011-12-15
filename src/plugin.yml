@@ -1,0 +1,12 @@
+name: MCPlugin Dev
+main: in.mcplug.main.BukkitInterface
+version: 0.1
+author: Firestar
+commands:
+  bpm:
+    description: Bukkit package manager
+    usage: /<command> <install/update> [package name]
+permissions:
+  bpm:
+    description: Bukkit package manager
+    default: op
